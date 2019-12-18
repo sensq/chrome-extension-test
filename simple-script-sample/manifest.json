@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "simple-script-sample",
+    "version": "1.0.0",
+    "description": "Sample Chrome Extension",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.google.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
